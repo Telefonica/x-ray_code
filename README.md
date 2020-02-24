@@ -25,27 +25,27 @@ sudo apt install bandit
 
 Numpy
 ```python
-Pip3 install numpy
+pip3 install numpy
 ```
 
 Seaborn
 ```python
-Pip3 install seaborn
+pip3 install seaborn
 ```
 
 Fpdf
 ```python
-Pip3 install fpdf
+pip3 install fpdf
 ```
 
 Tdqm
 ```python
-Pip3 install tqdm
+pip3 install tqdm
 ```
 
 Requests
 ```python
-Pip3 install requests
+pip3 install requests
 ```
 
 TK
@@ -113,8 +113,6 @@ python3 xraycode.py -i https://urltoscan/filetoanalyze.py -o outputheatmap/ -l H
 ## Authors
 
 This project has been developed by the team of **Ideas Locas (CDCO - Telefónica)**. To contact the author:
-
-
 
 
 ## Contributing
