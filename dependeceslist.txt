@@ -1,0 +1,21 @@
+Install Bandit 1.6.2
+sudo apt install bandit
+
+Numpy
+Pip3 install numpy
+
+Seaborn
+Pip3 install seaborn
+
+Fpdf
+Pip3 install fpdf
+
+Tdqm
+Pip3 install tqdm
+
+Requests
+Pip3 install requests
+
+TK
+sudo apt-get install python3-tk
+
