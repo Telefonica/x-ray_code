@@ -112,10 +112,9 @@ python3 xraycode.py -i https://urltoscan/filetoanalyze.py -o outputheatmap/ -l H
 
 ## Authors
 
-This project has been developed by the team of 'Ideas Locas' (CDO - Telefónica). To contact the author:
+This project has been developed by the team of **Ideas Locas (CDCO - Telefónica)**. To contact the author:
 
-Pablo González Perez -- @pablogonzalezpe -- pablo.gonzalezperez@telefonica.com
-Fran Ramírez -- @cybercaronte -- franciscojose.ramirezvicente@telefonica.com
+
 
 
 ## Contributing
