@@ -5,7 +5,7 @@
 ![alt text](XRayCode_Example.png)
 
 
-XRayCode is a proof of concept written in Python 3 whose main objective is to provide a new approach to visualize the detected vulnerabilities within a program's source code. Independently from the tool that we use to detect the vulnerabilities (in this case we have chosen the Python static code analysis tool called Bandit, due to its great relevance), XRayCode pretends to be a new approach towards a new point of view that helps in a visual way, to the early detection of possible vulnerabilities in the code. For this purpose, it will display an image on the screen (where the rows are the number of lines of code) which will represent a heat map indicating the hotspots where vulnerabilities have been detected. XRayCode allows you to work by scanning complete folders, specific files or even remotely located files using their URL. 
+**XRayCode** is a proof of concept written in Python 3 whose main objective is to provide a new approach to visualize the detected vulnerabilities within a program's source code. Independently from the tool that we use to detect the vulnerabilities (in this case we have chosen the Python static code analysis tool called [Bandit](https://pypi.org/project/bandit/), due to its great relevance), **XRayCode** pretends to be a new approach towards a new point of view that helps in a visual way, to the early detection of possible vulnerabilities in the code. For this purpose, it will display an image on the screen (where the rows are the number of lines of code) which will represent a heat map indicating the hotspots where vulnerabilities have been detected. **XRayCode** allows you to work by scanning complete folders, specific files or even remotely located files using their URL. 
 
 Once analysed, we have the option of viewing it directly on screen ( we can zoom in or out here, for example) or directly downloading the images in a specific folder. In this way, just by accessing it we can see in the preview of the images if vulnerabilities have been detected or not. It is also possible to generate a PDF file with a report of the type, level and description of the vulnerabilities found as well as a heatmap capture for each file analyzed.
 
@@ -13,9 +13,9 @@ Once analysed, we have the option of viewing it directly on screen ( we can zoom
 
 ### Prerequisites
 
-This very first version uses Bandit, to analyse static code written in Python. However, XRayCode can read the information from a JSON file, so it is simple to adapt it to another engine of any other programming languages.
+This very first version uses Bandit, to analyse static code written in Python. However, **XRayCode** can read the information from a JSON file, so it is simple to adapt it to another engine of any other programming languages.
 
-Install Bandit 1.6.2:
+**Install Bandit 1.6.2:**
 
 ```python
 sudo apt install bandit
@@ -55,7 +55,7 @@ sudo apt-get install python3-tk
 
 ### Usage
 
-XRayCode supports the following commands:
+**XRayCode** supports the following commands:
 
 ```python
 usage: xraycode.py [-h] -i I -o O -l L -r R -s S
@@ -110,9 +110,17 @@ python3 xraycode.py -i https://urltoscan/filetoanalyze.py -o outputheatmap/ -l H
     -r Denotes the file that will be generated containing the PDF vulnerabilities report ("pdfreport.pdf")
 
 
+## Authors
+
+This project has been developed by the team of 'Ideas Locas' (CDO - Telefónica). To contact the author:
+
+Pablo González Perez -- @pablogonzalezpe -- pablo.gonzalezperez@telefonica.com
+Fran Ramírez -- @cybercaronte -- franciscojose.ramirezvicente@telefonica.com
+
+
 ## Contributing
 
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 
@@ -123,10 +131,3 @@ This project is licensed under the GNU General Public License - see the LICENSE.
 THE SOFTWARE (for educational purpose only) IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 This software doesn't have a QA Process.
-
-
-
-
-
-
-
