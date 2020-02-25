@@ -63,7 +63,7 @@ usage: xraycode.py [-h] -i I -o O -l L -r R -s S
 Heatmap, X-Ray source code analysis by Ideas Locas CDCO ...
 
 optional arguments:
-  -h, (--help)  show this help message and exit
+  -h          show this help message and exit
   -i I        Input folder to scan
   -o O        Output folder to export results
   -l L        Severity (ALL, LOW, MEDIUM, HIGH)
