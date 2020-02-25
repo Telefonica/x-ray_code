@@ -115,7 +115,7 @@ python3 xraycode.py -i https://urltoscan/filetoanalyze.py -o outputheatmap/ -l H
 This project has been developed by the team of **Ideas Locas (CDCO - Telefónica)**. 
 To contact the author:
 
-Fran Ramírez. franciscojose.ramirezvicente@telefonica.com - @cybercaronte
+  * Fran Ramírez. franciscojose.ramirezvicente@telefonica.com - @cybercaronte
 
 
 ## Contributing
